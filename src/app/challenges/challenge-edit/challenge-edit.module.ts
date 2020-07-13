@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { ChallengeEditComponent } from "./challenge-edit.component";
 import {
     NativeScriptCommonModule,
@@ -16,5 +16,6 @@ import { SharedModule } from "../../shared/shared.module";
         ]),
         SharedModule,
     ],
+    schemas: [NO_ERRORS_SCHEMA],
 })
 export class ChallengeEditModule {}
