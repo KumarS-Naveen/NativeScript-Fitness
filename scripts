@@ -1,0 +1,6 @@
+Disconnect from siemens network
+adb kill-server
+adb tcpip 5555
+adb connect 192.168.0.101:5555
+tns run android --bundle (when you need to use real mobile)
+tns run android --emulator (only when you need to use emulators)

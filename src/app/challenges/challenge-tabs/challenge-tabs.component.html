@@ -1,0 +1,14 @@
+<TabView
+  androidTabsPosition="bottom"
+  androidSelectedTabHighlightColor="#7c015d"
+  selectedTabTextColor="#7c015d"
+>
+  <StackLayout *tabItem="{ title: 'Today' }">
+    <!-- outlet name is today as in routermodule  -->
+    <page-router-outlet name="today"> </page-router-outlet>
+  </StackLayout>
+  <StackLayout *tabItem="{ title: 'Current' }">
+    <!-- outlet name is currentChallenge as in routermodule  -->
+    <page-router-outlet name="currentChallenge"> </page-router-outlet>
+  </StackLayout>
+</TabView>
