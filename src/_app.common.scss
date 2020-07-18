@@ -1,0 +1,39 @@
+@import "~@nativescript/theme/css/core";
+
+@import "~@nativescript/theme/css/brown";
+
+@import "./theme/colors";
+
+Actionbar {
+  background: purple;
+  color: white;
+}
+
+.form {
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  width: 80%;
+
+  .label {
+    color: $primary;
+    font: bold;
+  }
+
+  .input {
+    border-bottom-width: 2;
+    border-color: $primary;
+  }
+}
+
+.drawer-container {
+  background: linear-gradient(140deg, #2b0c72, #5c3fa0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20;
+
+}
