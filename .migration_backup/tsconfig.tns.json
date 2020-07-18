@@ -1,8 +1,10 @@
 {
   "extends": "./tsconfig",
   "compilerOptions": {
-    "module": "esNext",
+    "module": "ESNext",
     "moduleResolution": "node"
   },
-  "include": ["src/**/*.ts"]
+  "include": [
+    "src/**/*.ts"
+  ],
 }
